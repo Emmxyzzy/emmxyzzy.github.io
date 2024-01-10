@@ -1,0 +1,34 @@
+body {
+	font: 100%/165% system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-size: 1.6em;
+	line-height: 100%;
+	-webkit-text-size-adjust:100%;
+}
+h2 {
+	font-size: 1.4em;
+	line-height: 100%;
+	margin: 0;
+	-webkit-text-size-adjust:100%;
+}
+
+p {
+	font-size: 0.85em;
+	line-height: 140%;
+	margin: 1em 0;
+	-webkit-text-size-adjust:120%;
+}
+
+ul,
+ol {
+	margin: 0 1em 1em 0;
+	padding: 0 0 0 2em;
+}
+li {
+	font-size: 0.85em;
+	line-height: 140%;
+	margin: 0.5em 0;
+	-webkit-text-size-adjust:120%;
+}

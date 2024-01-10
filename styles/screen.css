@@ -1,0 +1,149 @@
+html {
+	margin: 0;
+	min-width: 320px;
+	height: 100%;
+}
+
+body {
+	background-color: #909a6d;
+	background-image: url("../images/background.gif");
+	background-size: cover;
+	background-position: 100% 0;
+	background-repeat: no-repeat;
+	image-rendering: pixelated;
+	color: #000;
+	margin: 0;
+	height: 100%;
+}
+
+#page {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	height: 100%;
+	min-height: 350px;
+}
+
+h1 {
+	display: block;
+	margin: 0;
+	width: 0;
+	height: 0;
+	text-indent: -9999px;
+}
+
+a {
+	color: #e68fa9;
+	font-weight: 600;
+}
+
+/* #MARK - Window */
+
+.window {
+	background-color: #fff;
+	border-image-source: url("../images/window.png");
+	border-image-slice: 52 55 25 279 fill;
+	border-image-width: 52px 55px 25px 279px;
+	border-image-repeat: repeat;
+	image-rendering: pixelated;
+	box-sizing: border-box;
+	margin: 50px 50px 100px 50px;
+	padding: 60px 30px 30px 30px;
+	min-width: 200px;
+	max-width: 380px;
+}
+
+/* #MARK - Icons */
+
+.window ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 20px 10px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.window li {
+	display: block;
+	margin: 0;
+}
+.window li a {
+	background: url("../images/icons/current-find.png") 0 0 no-repeat;
+	display: block;
+	width: 66px;
+	height: 48px;
+	text-indent: -9999px;
+}
+.window li a:hover,
+.window li a:active {
+	background-position: 0 -48px;
+}
+.window li a.twitch {
+	background-image: url("../images/icons/twitch.png");
+}
+.window li a.youtube {
+	background-image: url("../images/icons/youtube.png");
+}
+.window li a.discord {
+	background-image: url("../images/icons/discord.png");
+}
+.window li a.donkey {
+	background-image: url("../images/icons/donkey.png");
+}
+.window li a.guestbook {
+	background-image: url("../images/icons/guestbook.png");
+}
+.window li a.current-find {
+	background-image: url("../images/icons/current-find.png");
+}
+.window li a.itchio {
+	background-image: url("../images/icons/itchio.png");
+}
+.window li a.sweat {
+	background-image: url("../images/icons/sweat.png");
+}
+.window li a.insta {
+	background-image: url("../images/icons/insta.png");
+}
+.window li a.frog {
+	background-image: url("../images/icons/frog.png");
+}
+
+
+
+/* #MARK - Double the pixels for larger screens */
+
+@media (min-width: 600px) and (min-height: 380px) {
+
+	#page {
+		min-height: 550px;
+	}
+
+	/* #MARK - Window */
+
+	.window {
+		border-image-width: 104px 110px 50px 558px;
+		padding: 108px 60px 50px 20px;
+		min-width: 400px;
+		max-width: 650px;
+	}
+
+	/* #MARK - Icons */
+
+	.window ul {
+		gap: 40px 10px;
+	}
+	.window li a {
+		background-size: 132px 192px;
+		width: 132px;
+		height: 96px;
+	}
+	.window li a:hover,
+	.window li a:active {
+		background-position: 0 -96px;
+	}
+
+}

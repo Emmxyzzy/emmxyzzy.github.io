@@ -120,6 +120,9 @@ a {
 .window li a.pantsmo {
 	background-image: url("../images/icons/cosmo.png");
 }
+.window li a.vods {
+	background-image: url("../images/icons/vods.png");
+}
 
 
 

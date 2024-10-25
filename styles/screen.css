@@ -111,8 +111,8 @@ a {
 .window li a.frog {
 	background-image: url("../images/icons/frog.png");
 }
-.window li a.twitter {
-	background-image: url("../images/icons/xIcon.png");
+.window li a.bluesky {
+	background-image: url("../images/icons/bluesky.png");
 }
 .window li a.email {
 	background-image: url("../images/icons/email.png");

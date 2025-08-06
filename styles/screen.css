@@ -123,6 +123,9 @@ a {
 .window li a.vods {
 	background-image: url("../images/icons/vods.png");
 }
+.window li a.masto {
+	background-image: url("../images/icons/masto.png");
+}
 
 
 

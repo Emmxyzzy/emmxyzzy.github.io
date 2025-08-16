@@ -71,7 +71,7 @@ a {
 	margin: 0;
 }
 .window li a {
-	background: url("../images/icons/current-find.png") 0 0 no-repeat;
+	background: url("../images/icons/gamejam.png") 0 0 no-repeat;
 	display: block;
 	width: 66px;
 	height: 48px;
@@ -96,8 +96,8 @@ a {
 .window li a.guestbook {
 	background-image: url("../images/icons/guestbook.png");
 }
-.window li a.current-find {
-	background-image: url("../images/icons/current-find.png");
+.window li a.game-jam {
+	background-image: url("../images/icons/gamejam.png");
 }
 .window li a.itchio {
 	background-image: url("../images/icons/itchio.png");
